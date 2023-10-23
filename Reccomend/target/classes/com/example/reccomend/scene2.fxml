@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="567.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reccomend.SceneTwoController">
+   <children>
+      <Label layoutX="69.0" layoutY="75.0" text="Movie Selection 1:" />
+      <Label layoutX="97.0" layoutY="119.0" text="Rating: " />
+      <Label layoutX="331.0" layoutY="75.0" text="Movie Selection 2:" />
+      <Label layoutX="358.0" layoutY="119.0" text="Rating: " />
+      <Label layoutX="609.0" layoutY="126.0" text="Rating: " />
+      <Label layoutX="589.0" layoutY="75.0" text="Movie Selection 3:" />
+      <Text fx:id="movieSelected1" layoutX="230.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="movieRating1" layoutX="230.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="movieRating2" layoutX="484.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="movieSelected2" layoutX="484.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="movieRating3" layoutX="720.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="movieSelected3" layoutX="720.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="movieRecommendation1" layoutX="118.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="movieRecommendation2" layoutX="388.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="movieRecommendation3" layoutX="675.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Label layoutX="65.0" layoutY="318.0" text="Movie Recommended1:" />
+      <Label layoutX="334.0" layoutY="318.0" text="Movie Recommended 2" />
+      <Label layoutX="617.0" layoutY="318.0" text="Movie Recommended 3:" />
+   </children>
+</AnchorPane>
